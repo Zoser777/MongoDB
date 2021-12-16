@@ -12,11 +12,11 @@ La segunda forma, es atravez de Docker, la cuál se explica en esta guía.
 Lo primero que haremos es montar un contenedor con la imagen oficial de MongoDB. Debemos tener en cuenta las siguientes variables:
 
 
- · MONGO_INITDB_ROOT_PASSWORD= contraseña
+     MONGO_INITDB_ROOT_PASSWORD= contraseña
  
- · MONGO_INITDB_ROOT_USERNAME= root
+     MONGO_INITDB_ROOT_USERNAME= root
  
- · -p para asignar el puerto
+     -p para asignar el puerto
 
 El comando completo para montar el contenedor es la siguiente:
 
