@@ -42,7 +42,41 @@ test> ....
 
 # Algunos comandos para familiarizarnos con MongoDB
 
-# # Listar Bases de datos:
+Para entender como funciona MongoDB y los archivos .JSON, voy a usar la base de datos "Tienda".
+ACLARACIÓN: No hay tablas ya que es un modelo NoSQL, hay colecciones. (busca en Wikipedia)
 
+
+###### Listar Bases de datos:
+
+ · show dbs
+
+###### Crear Bases de datos:
+
+ Para crear una base de datos, lo podemos hacer directamente "usando" una base de datos:
+ 
+ · use Tienda
+ 
+###### Crear Coleccion ( = tabla)
+
+Al insertar datos, si la colección no está creada, se crea automaticamente:
+
+ · db.Usuarios.insertOne({"Nombre de usuario": "Josep11", "Nombre": "Josep", "Telefono 1": "685478596","Telefono 2": "685475636", "Domicilio": "Av. Patata 25", "CP": "07658", "Fecha de nacimiento": "1990"});
+
+###### Mostrar colecciones:
+
+ · show collections
+ 
+###### Mostrar contenido de las colecciones:
+
+ · db.Usuarios.find()
+ 
+###### Buscar un dato en concreto:
+
+ · db.Usuarios.find ({ "Nombre de usuario": "Josep11" })
+
+###### Insertar datos en una colección:
+
+ · db.Usuarios.insert( [ { "Nom de usuario": "Mari", "Nombre": "Marina", "Telefono 1": "62228596", "Domicilio": "Av. Lechuga 123", "CP": "07777", "Fecha de nacimiento": "1953"}
+... ])
 
 
