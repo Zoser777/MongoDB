@@ -13,22 +13,18 @@ Lo primero que haremos es montar un contenedor con la imagen oficial de MongoDB.
 
 
      MONGO_INITDB_ROOT_PASSWORD= contraseña
- 
      MONGO_INITDB_ROOT_USERNAME= root
- 
      -p para asignar el puerto
+
 
 El comando completo para montar el contenedor es la siguiente:
 
-
-
-docker run -it -e MONGO_INITDB_ROOT_PASSWORD=12321 -e MONGO_INITDB_ROOT_USERNAME=root -p 8081:8081 --name MongoDB mongo
-
+      docker run -it -e MONGO_INITDB_ROOT_PASSWORD=12321 -e MONGO_INITDB_ROOT_USERNAME=root -p 8081:8081 --name MongoDB mongo
 
 
 Para acceder al contenedor, abrimos una nueva terminal y ejecutamos: 
 
-_docker exec -it mongodb /bin/bash
+     docker exec -it mongodb /bin/bash
 
 # Accediendo a MongoDB
 
