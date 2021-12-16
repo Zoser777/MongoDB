@@ -26,7 +26,7 @@ Para acceder al contenedor, abrimos una nueva terminal y ejecutamos:
 
      docker exec -it mongodb /bin/bash
      
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464397-f0e7c35f-5dd8-4830-8ae5-48a9561bef43.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464397-f0e7c35f-5dd8-4830-8ae5-48a9561bef43.png)
 
      
 
@@ -38,7 +38,7 @@ Ahora tendríamos que ver algo del estilo:
 
      mongosh -u root
      test> ....
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464477-bc5d297f-f476-4446-ae7f-a54b3f253f52.png)
+  ![imagen](https://user-images.githubusercontent.com/80277545/146464477-bc5d297f-f476-4446-ae7f-a54b3f253f52.png)
 
 
 # Algunos comandos para familiarizarnos con MongoDB
@@ -50,7 +50,7 @@ ACLARACIÓN: No hay tablas ya que es un modelo NoSQL, hay colecciones. (busca en
 ###### Listar Bases de datos:
 
       show dbs
-      ![imagen](https://user-images.githubusercontent.com/80277545/146464531-5e4b1465-4809-4ab8-bc53-7e3f0370b563.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464531-5e4b1465-4809-4ab8-bc53-7e3f0370b563.png)
 
      
 
@@ -59,7 +59,7 @@ ACLARACIÓN: No hay tablas ya que es un modelo NoSQL, hay colecciones. (busca en
  Para crear una base de datos, lo podemos hacer directamente "usando" una base de datos:
  
       use Tienda
-      ![imagen](https://user-images.githubusercontent.com/80277545/146464575-ba3572fe-7678-4cc5-98ef-0a521d32a91e.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464575-ba3572fe-7678-4cc5-98ef-0a521d32a91e.png)
 
  
 ###### Crear Coleccion ( = tabla)
@@ -67,26 +67,26 @@ ACLARACIÓN: No hay tablas ya que es un modelo NoSQL, hay colecciones. (busca en
 Al insertar datos, si la colección no está creada, se crea automaticamente:
 
      db.Usuarios.insertOne({"Nombre de usuario": "Josep11", "Nombre": "Josep", "Telefono 1": "685478596","Telefono 2": "685475636", "Domicilio": "Av. Patata 25", "CP": "07658", "Fecha de nacimiento": "1990"});
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464646-1a0e57ff-b775-4604-99d0-6ba726783f57.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464646-1a0e57ff-b775-4604-99d0-6ba726783f57.png)
 
 
 ###### Mostrar colecciones:
 
      show collections
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464711-b88ae14a-e169-43a7-a209-07f6506c625a.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464711-b88ae14a-e169-43a7-a209-07f6506c625a.png)
 
      
  
 ###### Mostrar contenido de las colecciones:
 
      db.Usuarios.find()
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464758-b8b9c126-d0aa-4a80-aaa2-9f528e122e3c.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464758-b8b9c126-d0aa-4a80-aaa2-9f528e122e3c.png)
 
  
 ###### Buscar un dato en concreto:
 
      db.Usuarios.find ({ "Nombre de usuario": "Josep11" })
-     ![imagen](https://user-images.githubusercontent.com/80277545/146464813-964bf6a6-12b0-4eb0-ad9c-9921c206871f.png)
+   ![imagen](https://user-images.githubusercontent.com/80277545/146464813-964bf6a6-12b0-4eb0-ad9c-9921c206871f.png)
 
      
 
