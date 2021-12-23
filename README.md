@@ -1,11 +1,12 @@
 # MongoDB
 
-Podemos instalar MongoDB de dos formas, la primera, es desde la pagina principal, siguiendo la siguiente guía: 
+Podemos instalar MongoDB de dos formas, la primera, es desde la página principal, siguiendo la siguiente guía: 
 
 _https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ ( Ubuntu )
 _https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.5.zip ( Windows )
 
-La segunda forma, es atravez de Docker, la cuál se explica en esta guía.
+La segunda forma, es atrevés de Docker, la cual se explica en esta guía.
+
 
 # Instalando MongoDB con Docker
 
@@ -44,7 +45,7 @@ Ahora tendríamos que ver algo del estilo:
 # Algunos comandos para familiarizarnos con MongoDB
 
 Para entender como funciona MongoDB y los archivos .JSON, voy a usar la base de datos "Tienda".
-ACLARACIÓN: No hay tablas ya que es un modelo NoSQL, hay colecciones. (busca en Wikipedia)
+ACLARACIÓN: No hay tablas, ya que es un modelo NoSQL, hay colecciones. (busca en Wikipedia)
 
 
 ###### Listar Bases de datos:
