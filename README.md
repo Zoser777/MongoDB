@@ -120,3 +120,26 @@ Al insertar datos, si la colección no está creada, se crea automaticamente:
 
 ![imagen](https://user-images.githubusercontent.com/80277545/149176036-10d3ce6b-7c49-4ead-9b63-9f6bc5632f5f.png)
 
+
+####### Actualizar colecciones:
+
+En el siguiente caso, tenemos dos entradas, donde queremos que tengan el mismo nombre , "Pablito". Si queremos que "Pablito", sea el nombre de los usuarios "Zoser77", ejecutaremos lo siguiente:
+
+![imagen](https://user-images.githubusercontent.com/80277545/149177991-2507c45c-1f60-45aa-9cc7-c3419f77f656.png)
+
+Ejecutariamos lo siguiente:
+
+          db.Usuarios.update({ "Nombre de usuario": "Zoser77"},{ $set: {"Nombre":"Pablito"}},{multi:true})
+          
+Esto en SQL sería:
+
+          UPDATE Usuarios
+          SET nombre=Pablito
+          where "Nombre de usuario" = Zoser77
+          
+Resultado:
+
+![imagen](https://user-images.githubusercontent.com/80277545/149178641-12be74d8-6225-4227-8b53-284f1cc2cd15.png)
+
+
+### Operadores Logicos en MongoDB
