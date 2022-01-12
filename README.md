@@ -116,7 +116,7 @@ Al insertar datos, si la colección no está creada, se crea automaticamente:
 
 ###### Insertar varios datos en una columna: 
 
-     Tienda>  db.Usuarios.insert({ 'Nombre de usuario' : "Zoser77", Nombre :  "Raul", 'Telefono 1' : "6425884", 'Telefono 2' : "887451478", Domicilio : "Av. Cebolla 23" , CP : "87414", 'Fecha de nacimiento' : "1999" , "Juegos favoritos": { "De pley": " Spiderman", "De Nintendo" : "Zelda"}})
+      db.Usuarios.insert({ 'Nombre de usuario' : "Zoser77", Nombre :  "Raul", 'Telefono 1' : "6425884", 'Telefono 2' : "887451478", Domicilio : "Av. Cebolla 23" , CP : "87414", 'Fecha de nacimiento' : "1999" , "Juegos favoritos": { "De pley": " Spiderman", "De Nintendo" : "Zelda"}})
 
 ![imagen](https://user-images.githubusercontent.com/80277545/149176036-10d3ce6b-7c49-4ead-9b63-9f6bc5632f5f.png)
 
