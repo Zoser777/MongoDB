@@ -102,7 +102,7 @@ Al insertar datos, si la colección no está creada, se crea automaticamente:
      db.Usuarios.insert( [ { "Nom de usuario": "Mari", "Nombre": "Marina", "Telefono 1": "62228596", "Domicilio": "Av.          Lechuga 123", "CP": "07777", "Fecha de nacimiento": "1953"}
      ... ])
 
-###### Insertar varios datos:
+###### Insertar varias coleccions:
 
      Usuaris> db.Usuarios.insertMany([{"Nombre de usuario": "Manolo", "Nombre": "Manolin", "Telefono 1": "6658465", "Telefono 2" : "65848651", "Domicilio" : " Av. Patata 23", "CP" : "07004", "Fecha de nacimiento": "2001"}, {"Nombre de usuario" : "Perxita", "Nombre" : "Federico", "Telefono 1": "6548123", "Telefono 2" : "49841238", "Domicilio" : "Av. Tomate 2", "CP":"989845", "Fecha de nacimiento":"2002"}])
      {
@@ -114,4 +114,9 @@ Al insertar datos, si la colección no está creada, se crea automaticamente:
      }
      
 
+###### Insertar varios datos en una columna: 
+
+     Tienda>  db.Usuarios.insert({ 'Nombre de usuario' : "Zoser77", Nombre :  "Raul", 'Telefono 1' : "6425884", 'Telefono 2' : "887451478", Domicilio : "Av. Cebolla 23" , CP : "87414", 'Fecha de nacimiento' : "1999" , "Juegos favoritos": { "De pley": " Spiderman", "De Nintendo" : "Zelda"}})
+
+![imagen](https://user-images.githubusercontent.com/80277545/149176036-10d3ce6b-7c49-4ead-9b63-9f6bc5632f5f.png)
 
