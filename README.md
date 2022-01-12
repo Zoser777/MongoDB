@@ -101,7 +101,17 @@ Al insertar datos, si la colección no está creada, se crea automaticamente:
 
      db.Usuarios.insert( [ { "Nom de usuario": "Mari", "Nombre": "Marina", "Telefono 1": "62228596", "Domicilio": "Av.          Lechuga 123", "CP": "07777", "Fecha de nacimiento": "1953"}
      ... ])
-     
+
+###### Insertar varios datos:
+
+     Usuaris> db.Usuarios.insertMany([{"Nombre de usuario": "Manolo", "Nombre": "Manolin", "Telefono 1": "6658465", "Telefono 2" : "65848651", "Domicilio" : " Av. Patata 23", "CP" : "07004", "Fecha de nacimiento": "2001"}, {"Nombre de usuario" : "Perxita", "Nombre" : "Federico", "Telefono 1": "6548123", "Telefono 2" : "49841238", "Domicilio" : "Av. Tomate 2", "CP":"989845", "Fecha de nacimiento":"2002"}])
+     {
+     acknowledged: true,
+     insertedIds: {
+    '0': ObjectId("61def5dde5f14e2c56e01496"),
+    '1': ObjectId("61def5dde5f14e2c56e01497")
+     }
+     }
      
 
 
