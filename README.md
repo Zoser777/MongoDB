@@ -7,6 +7,12 @@ _https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.5.zip ( Windows )
 
 La segunda forma, es atrevés de Docker, la cual se explica en esta guía.
 
+### En caso de usar el archivo .yaml de este repositorio:
+
+En el directorio donde se ponga el documento, se debe crear un directorio /home, que estará bindeado con el /home del contendor. Esto es por si en algún momento debemos hacer un mongoimport, para así pasar ficheros del contenedor al host de una manera sencilla. 
+
+( Siempre podemos recurrir a ussar comandos propios de Docker para pasar datos de un lugar a otro "docker cp", etc)
+
 
 # Instalando MongoDB con Docker
 
