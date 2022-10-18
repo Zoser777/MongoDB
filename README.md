@@ -31,7 +31,7 @@ El comando completo para montar el contenedor es la siguiente:
 
 Para acceder al contenedor, abrimos una nueva terminal y ejecutamos: 
 
-     docker exec -it mongodb /bin/bash
+     docker exec -it MongoDB /bin/bash
      
    ![imagen](https://user-images.githubusercontent.com/80277545/146464397-f0e7c35f-5dd8-4830-8ae5-48a9561bef43.png)
 
