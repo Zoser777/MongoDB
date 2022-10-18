@@ -48,6 +48,21 @@ Ahora tendríamos que ver algo del estilo:
   ![imagen](https://user-images.githubusercontent.com/80277545/146464477-bc5d297f-f476-4446-ae7f-a54b3f253f52.png)
 
 
+# Accediendo a Mongo Atlas
+
+Estando dentro del contenedor con una bash inicializada, podemos ir a la pagína de Mongo atlas a copiar el enlace para conectarnos a nuestro cluster.
+
+file:///home/z0s3r77/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202022-10-18%2020-36-05.png![imagen](https://user-images.githubusercontent.com/80277545/196515694-c8c6f0f8-e2ec-42b0-a4de-a75ee9df8216.png)
+
+A continuación lo insertamos en nuestro contenedor: 
+
+file:///home/z0s3r77/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202022-10-18%2020-37-49.png![imagen](https://user-images.githubusercontent.com/80277545/196516035-01dc3ddc-1236-40ce-90bb-d86471f5e32c.png)
+
+
+
+
+
+
 # Algunos comandos para familiarizarnos con MongoDB
 
 Para entender como funciona MongoDB y los archivos .JSON, voy a usar la base de datos "Tienda".
