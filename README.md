@@ -52,11 +52,11 @@ Ahora tendríamos que ver algo del estilo:
 
 Estando dentro del contenedor con una bash inicializada, podemos ir a la pagína de Mongo atlas a copiar el enlace para conectarnos a nuestro cluster.
 
-file:///home/z0s3r77/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202022-10-18%2020-36-05.png![imagen](https://user-images.githubusercontent.com/80277545/196515694-c8c6f0f8-e2ec-42b0-a4de-a75ee9df8216.png)
+![imagen](https://user-images.githubusercontent.com/80277545/196515694-c8c6f0f8-e2ec-42b0-a4de-a75ee9df8216.png)
 
 A continuación lo insertamos en nuestro contenedor: 
 
-file:///home/z0s3r77/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202022-10-18%2020-37-49.png![imagen](https://user-images.githubusercontent.com/80277545/196516035-01dc3ddc-1236-40ce-90bb-d86471f5e32c.png)
+![imagen](https://user-images.githubusercontent.com/80277545/196516035-01dc3ddc-1236-40ce-90bb-d86471f5e32c.png)
 
 
 
